@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@200&family=Sacramento&display=swap');
 .split {
   height: 100%;
   width: 50%;
@@ -10,19 +11,27 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background-color: teal;
 }
 
 .right {
   right: 0;
+  background-color: #f0ead6;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: centers;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_image {
+  filter: drop-shadow(0 0 0.25rem #000);
+  border-radius: 4%;
+  width: 250px;
+  height: auto;
 }
 
 .name_title {
@@ -30,13 +39,24 @@
   color: black;
   text-align: left;
   padding-bottom: 20px;
+  font-family: 'Sacramento', cursive;
 }
 
 .brief_description {
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.profile_image {
-  width: 500px;
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.mediaPic {
+  width: 15px;
   height: auto;
 }
