@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@200&family=Sacramento&display=swap');
+
 .Home {
-  background-color: ghostwhite;
+  background-color: #f0ead6;
   height: 100vh;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
 }
