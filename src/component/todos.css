@@ -1,11 +1,5 @@
 .todoCollection {
+  max-width: 400px;
   margin: auto;
-  padding: 10px 0px 20px 0px;
-  height: 70%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 10px;
-  align-content: flex-start;
+  padding-bottom: 20px;
 }

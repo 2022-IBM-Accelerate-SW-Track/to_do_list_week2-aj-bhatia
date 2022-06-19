@@ -69,7 +69,7 @@ export default class About extends Component {
                     </Typography>
                     <br></br>
                     <Typography style={{ fontFamily: "Montserrat", fontSize: "10px" }}>
-                      Hobbies: Skiing, Running, Building keyboards, Traveling, Cooking, Eating, and Lifting.
+                      Hobbies: Skiing, Running, Lifting, Building keyboards, Traveling, and Lifting.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
